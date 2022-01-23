@@ -5,10 +5,11 @@
 
 Data and code for the paper
 
-> Bryant J, Rittirong J, Aekplakorn W, Mo-suwan L, Nitnara P,
-> Forthcoming. “A Bayesian approach to combining multiple information
-> sources: Estimating and forecasting childhood obesity in Thailand”.
-> *PLOS-ONE*.
+> Bryant J, Rittirong J, Aekplakorn W, Mo-suwan L, Nitnara P, [A
+> Bayesian approach to combining multiple information sources:
+> Estimating and forecasting childhood obesity in
+> Thailand](https://doi.org/10.1371/journal.pone.0262047). *PLOS-ONE*.
+> 21 January 2022.
 
 | Folder     | Contents                                                                |
 |:-----------|:------------------------------------------------------------------------|
@@ -46,6 +47,7 @@ The most reliable way to make sure all the dependencies for the analysis
 are present is to use the Dockerfile in combination with an application
 called docker.
 
-Data and code for priors for annual variation described in the paper are
-in the repository
+The parameters for the informative prior described in the paper are
+based on a separate analysis of WHO data. The data and code for the WHO
+analysis are available in the repository
 [bayescombwho](https://github.com/johnrbryant/bayescombwho).
